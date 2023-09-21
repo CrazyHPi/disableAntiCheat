@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "xyz.crazyh.disableanticheat.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "disableAntiCheat.refmap.json",
+  "mixins": [
+    "MixinServerGamePacketListenerImpl"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
